@@ -62,6 +62,9 @@ ro.kernel.zio=38,108,105,16
 # MDLOG
 persist.sys.mdlog_dumpback=2
 
+# HWUI
+debug.hwui.skia_atrace_enabled=false
+
 # Media
 ro.vendor.mtk_flv_playback_support=1
 media.stagefright.thumbnail.prefer_hw_codecs=true
