@@ -444,6 +444,7 @@ PRODUCT_PACKAGES += \
     init.mi_thermald.rc \
     init.modem.rc \
     init.mt6768.rc \
+    init.mt6768.power.rc \
     init.mt6768.usb.rc \
     init.target.rc \
     init.wlan_drv.rc \
