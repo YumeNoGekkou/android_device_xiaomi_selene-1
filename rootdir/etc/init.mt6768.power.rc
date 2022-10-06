@@ -120,3 +120,8 @@ on property:sys.boot_completed=1
     write /sys/block/dm-3/queue/read_ahead_kb 128
     write /sys/block/dm-4/queue/read_ahead_kb 128
     write /sys/block/dm-5/queue/read_ahead_kb 128
+
+    # TCP settings
+    write /proc/sys/net/ipv4/tcp_ecn 1
+    write /proc/sys/net/ipv4/tcp_fastopen 3
+    write /proc/sys/net/ipv4/tcp_syncookies 0
