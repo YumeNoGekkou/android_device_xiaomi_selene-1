@@ -228,16 +228,6 @@
       "DefaultIndex": 0
     },
     {
-      "Name": "CPUSchedBoost",
-      "Path": "/sys/devices/system/cpu/sched/sched_boost",
-      "Values": [
-        "6",
-        "3",
-        "0"
-      ],
-      "ResetOnInit": true
-    },
-    {
       "Name": "EASMigrateCost",
       "Path": "/proc/perfmgr/boost_ctrl/eas_ctrl/m_sched_migrate_cost_n",
       "Values": [
