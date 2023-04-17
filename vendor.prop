@@ -47,7 +47,6 @@ ro.vendor.display.sensortype=2
 vendor.display.svi.config=1
 vendor.display.svi.config_path=/system/etc/SVIConfig.xml
 persist.vendor.max.brightness=462
-debug.sf.latch_unsignaled=1
 debug.sf.disable_backpressure=1
 debug.mediatek.disp_decompress=1
 
