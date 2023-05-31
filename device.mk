@@ -161,12 +161,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     disable_configstore
 
+PRODUCT_PACKAGES += \
+    android.hardware.memtrack-service.mediatek-mali
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-impl \
     android.hardware.graphics.composer@2.1-service \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.memtrack@1.0-service \
     libdrm.vendor \
     libvulkan \
     libfmq.vendor \
