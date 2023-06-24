@@ -1,2 +1,11 @@
+# Audio
+system_public_prop(system_audio_prop)
+
+# Camera
+system_public_prop(system_camera_prop)
+
+# Fingerprint
+system_public_prop(system_fingerprint_prop)
+
 # IMEI
 system_internal_prop(deviceid_prop)
