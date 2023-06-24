@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 #
 # All components inherited here go to system_ext image
@@ -48,7 +48,7 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := selene
-PRODUCT_NAME := aosp_selene
+PRODUCT_NAME := arrow_selene
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 10

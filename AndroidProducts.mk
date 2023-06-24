@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/aosp_selene.mk
+   $(LOCAL_DIR)/arrow_selene.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_selene-user \
-    aosp_selene-userdebug \
-    aosp_selene-eng
+    arrow_selene-user \
+    arrow_selene-userdebug \
+    arrow_selene-eng
