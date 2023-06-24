@@ -46,6 +46,8 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
+DEVICE_MAINTAINER := fukiame
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := selene
 PRODUCT_NAME := arrow_selene
