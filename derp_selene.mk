@@ -26,9 +26,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-# Inherit from our custom product configuration
+# Inherit from DerpFest custom product configuration
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 #
 # All components inherited here go to system_ext image
@@ -49,7 +49,7 @@ DEVICE_MAINTAINER := fukiame
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := selene
-PRODUCT_NAME := arrow_selene
+PRODUCT_NAME := derp_selene
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 10

@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/arrow_selene.mk
+   $(LOCAL_DIR)/derp_selene.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_selene-user \
-    arrow_selene-userdebug \
-    arrow_selene-eng
+    derp_selene-user \
+    derp_selene-userdebug \
+    derp_selene-eng
