@@ -3,6 +3,3 @@ allow mtk_hal_camera persist_data_file:dir { search };
 allow mtk_hal_camera persist_camera_data_file:dir rw_dir_perms;
 allow mtk_hal_camera persist_camera_data_file:file create_file_perms;
 allow radio camera2_exported_camera_prop:file { read };
-
-set_prop(mtk_hal_camera, system_camera_prop)
-get_prop(mtk_hal_camera, system_camera_prop)
